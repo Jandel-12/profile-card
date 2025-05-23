@@ -39,7 +39,7 @@
         align-items: center;
         border-radius: 1rem;
         border-bottom: 5px solid black; 
-
+        position: relative;
         
     }
 
@@ -71,4 +71,26 @@
     {
     transform: scale(1.5);
 
+    }
+
+    #darkmode
+    {
+        width: 10px;
+        height: 15px;
+        border-radius: 35px;
+        position: absolute;
+        cursor: pointer;
+        top: 10px;
+        left: 10px;
+    }
+
+    .dark-mode
+    {
+        background-color: #0e0f5a;
+        color: aliceblue;
+    }
+
+    .dark-bg
+    {
+        background-color: #000;
     }
